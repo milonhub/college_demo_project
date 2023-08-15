@@ -1,167 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>college</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>College Demo Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="header">
-        <div class="nav-bar">
-            <div class="nav">
-                <img src="images/logo.png">
-               <div class="nav-control">
-                <div class="nav-links" id="navLinks">
-                    <i class="fa-solid fa-xmark" onclick="hiddenMenu()"></i>
-                    <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="course.html">COURSE</a></li>
-                        <li><a href="blog.html">BLOG</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
-                    </ul>
-                </div>
-                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      <div class="nav-bar">
+        <div class="nav">
+          <img src="images/logo.png" />
+          <div class="nav-control">
+            <div class="nav-links" id="navLinks">
+              <i class="fa-solid fa-xmark" onclick="hiddenMenu()"></i>
+              <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+              </ul>
             </div>
-            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+          </div>
         </div>
-        <div class="text-box">
-            <h1>World's Biggest University</h1>
+      </div>
+      <div class="text-box">
+        <h1>World's Biggest University</h1>
+        <p>
+          Making websity is now one of the easist thing in the world.Just you
+          need to learn HTMl, CSS, <br />JavaScript and you are good to go.
+        </p>
+        <a href="#" class="btn">Visit us to know more</a>
+      </div>
+    </div>
+
+    <!---Course Section--->
+    <section class="course">
+      <h1>Course We Offer</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sit
+            nostrum, ut facere est beatae, magni tempore vitae soluta, iste iure
+            et sapiente delectus quasi at molestiae modi corrupti libero.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sit
+            nostrum, ut facere est beatae, magni tempore vitae soluta, iste iure
+            et sapiente delectus quasi at molestiae modi corrupti libero.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sit
+            nostrum, ut facere est beatae, magni tempore vitae soluta, iste iure
+            et sapiente delectus quasi at molestiae modi corrupti libero.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="campus">
+      <h1>Our Global Campus</h1>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="images/london.png" />
+          <div class="layer">
+            <h3>London</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="images/newyork.png" />
+          <div class="layer">
+            <h3>New york</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="images/washington.png" />
+          <div class="layer">
+            <h3>Washigton</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---facilities--->
+    <section class="facilaties">
+      <h1>Our Facilaties</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="facilaties-col">
+          <img src="images/library.png" alt="" />
+          <h3>World Class Library</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias,
+            expedita?
+          </p>
+        </div>
+        <div class="facilaties-col">
+          <img src="images/cafeteria.png" />
+          <h3>Tasty and Healthy Food</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias,
+            expedita?
+          </p>
+        </div>
+        <div class="facilaties-col">
+          <img src="images/basketball.png" />
+          <h3>Largest Play Ground</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias,
+            expedita?
+          </p>
+        </div>
+      </div>
+    </section>
+    <!---Testimony--->
+    <section class="testimonial">
+      <h1>What Our Student Says</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="images/user1.jpg" />
+          <div>
             <p>
-                Making websity is now one of the easist thing in the world.Just you need to learn HTMl, CSS, <br>JavaScript and you are good to go.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eos
+              quasi hic, quibusdam necessitatibus optio?
             </p>
-            <a href="#" class="btn">Visit us to know more</a>
-        </div>
-    </div>
-
-<!---Course Section--->
-<section class="course">
-    <h1>Course We Offer</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia </p>
-    <div class="row">
-        <div class="course-col">
-            <h3>Intermediate</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sit nostrum, ut facere est beatae, magni tempore vitae soluta, iste iure et sapiente delectus quasi at molestiae modi corrupti libero.</p>
-        </div>
-        <div class="course-col">
-            <h3>Intermediate</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sit nostrum, ut facere est beatae, magni tempore vitae soluta, iste iure et sapiente delectus quasi at molestiae modi corrupti libero.</p>
-        </div>
-        <div class="course-col">
-            <h3>Intermediate</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sit nostrum, ut facere est beatae, magni tempore vitae soluta, iste iure et sapiente delectus quasi at molestiae modi corrupti libero.</p>
-        </div>
-    </div>
-</section>
-
-<section class="campus">
-    <h1>Our Global Campus</h1>
-    <p>Lorem ipsum dolor sit amet consectetur.</p>
-    <div class="row">
-        <div class="campus-col">
-            <img src="images/london.png">
-            <div class="layer">
-                <h3>London</h3>
-            </div>
-        </div>
-        <div class="campus-col">
-            <img src="images/newyork.png">
-            <div class="layer">
-                <h3>New york</h3>
-            </div>
-        </div>
-        <div class="campus-col">
-            <img src="images/washington.png">
-            <div class="layer">
-                <h3>Washigton</h3>
-            </div>
-        </div>
-    </div>
-</section>
-<!---facilities--->
-<section class="facilaties">
-     <h1>Our Facilaties</h1>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-     <div class="row">
-        <div class="facilaties-col">
-            <img src="images/library.png" alt="">
-            <h3>World Class Library</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, expedita?</p>
-        </div>
-        <div class="facilaties-col">
-            <img src="images/cafeteria.png">
-            <h3>Tasty and Healthy Food</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, expedita?</p>
-        </div>
-        <div class="facilaties-col">
-            <img src="images/basketball.png">
-            <h3>Largest Play Ground</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, expedita?</p>
-        </div>
-     </div>
-</section>
-<!---Testimony--->
-<section class="testimonial">
-    <h1>What Our Student Says</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-    <div class="row">
-        <div class="testimonial-col">
-            <img src="images/user1.jpg">
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eos quasi hic, quibusdam necessitatibus optio?</p>
-                <h3>Christina Barkey</h3>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-            </div>
+            <h3>Christina Barkey</h3>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
         </div>
         <div class="testimonial-col">
-            <img src="images/user2.jpg">
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eos quasi hic, quibusdam necessitatibus optio?</p>
-                <h3>David Buyer</h3>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star-half-stroke"></i>
-            </div>
+          <img src="images/user2.jpg" />
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eos
+              quasi hic, quibusdam necessitatibus optio?
+            </p>
+            <h3>David Buyer</h3>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!---Call to Action--->
-<section class="cta">
-    <h1>Enroll for our various online course anywhere from the world</h1>
-    <a href="#" class="btn">Contact Us</a>
-</section>
+    <!---Call to Action--->
+    <section class="cta">
+      <h1>Enroll for our various online course anywhere from the world</h1>
+      <a href="#" class="btn">Contact Us</a>
+    </section>
 
-<!---Footer--->
-<section class="footer">
-    <h4>About Us</h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat expedita cupiditate reiciendis quibusdam <br> vel voluptate temporibus, nisi unde enim nam saepe dolor labore odit itaque.</p>
-    <div class="icons">
+    <!---Footer--->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+        expedita cupiditate reiciendis quibusdam <br />
+        vel voluptate temporibus, nisi unde enim nam saepe dolor labore odit
+        itaque.
+      </p>
+      <div class="icons">
         <i class="fa-brands fa-facebook"></i>
         <i class="fa-brands fa-twitter"></i>
         <i class="fa-brands fa-instagram"></i>
         <i class="fa-brands fa-linkedin"></i>
-    </div>
-     <p>Made with <i class="fa-regular fa-heart"></i> By Easy Tutorials</p>
-</section>
+      </div>
+      <p>Made with <i class="fa-regular fa-heart"></i> By Easy Tutorials</p>
+    </section>
     <script>
-        var navLinks=document.getElementById('navLinks')
-        function hiddenMenu(){
-            navLinks.style.right="-200px";
-        }
+      var navLinks = document.getElementById("navLinks");
+      function hiddenMenu() {
+        navLinks.style.right = "-200px";
+      }
 
-        function showMenu(){
-            navLinks.style.right="0px"
-        }
+      function showMenu() {
+        navLinks.style.right = "0px";
+      }
     </script>
-</body>
+  </body>
 </html>
